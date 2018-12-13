@@ -1,0 +1,38 @@
+<annotation>
+	<folder>photo validée par moi</folder>
+	<filename>cap 00205.jpg</filename>
+	<path>C:\Users\bdupontd\Desktop\photo validée par moi\cap 00205.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>352</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bee</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>353</xmin>
+			<ymin>191</ymin>
+			<xmax>389</xmax>
+			<ymax>224</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bee</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>380</xmin>
+			<ymin>196</ymin>
+			<xmax>422</xmax>
+			<ymax>232</ymax>
+		</bndbox>
+	</object>
+</annotation>

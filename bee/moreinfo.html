@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" style="height:100%">
+        <head>
+                <meta charset="utf-8">
+                <title>Hive Capgemini</title>
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+                <link rel="icon" type="image/png" href="CapLogo.png" />
+
+                <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+                <script src="jquery-3.3.1.min.js" charset="utf-8"></script>
+                <script src="code.js" charset="utf-8" ></script>
+                <!--[if lt IE 9]><script type="text/javascript" src="excanvas.js"></script><![endif]-->
+                <script src="tagcanvas.min.js" charset="utf-8" ></script>
+                <link rel="stylesheet" href="style.css">
+                <link rel="stylesheet" href="explain.css">
+        </head>
+        <body class="home" style="height:100%" >
+    <div class="container-fluid display-table">
+        <div class="row display-table-row">
+            <div class="hidden-xs display-table-cell v-align box" id="navigation">
+                <div class="logo">
+                    <a hef="home.html">
+                        <img src="CapLogo.png" alt="Capgemini_logo" class="visible-xs visible-sm circle-logo">
+                    </a>
+                </div>
+                <div class="navi">
+                    <ul>
+                        <li><a href="/home"><i class="fa fa-home" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Home</span></a></li>
+                        <li><a href="stats" style="white-space:nowrap;"><i class="fas fa-chart-pie"></i><span class="hidden-xs hidden-sm">Statistics</span></a></li>
+                        <li><a href="livecam" style="white-space:nowrap;"><i class="fas fa-video"></i><span class="hidden-xs hidden-sm">Hive Cam</span></a></li>
+                        <li ><a href="explain" style="white-space:nowrap;"><i class="fas fa-cogs"></i><span class="hidden-xs hidden-sm">How it works</span></a></li>
+                        <li class="active"><a href="#" style="white-space:nowrap;"><i class="fas fa-bug"></i><span class="hidden-xs hidden-sm">Bees and data</span></a></li>
+                        <li ><a href="greenApproach"><i class="fas fa-leaf"></i><span class="hidden-xs hidden-sm">Our Sustainability Approach</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-10 col-sm-11 display-table-cell v-align">
+                <div class="container">
+                    <h1>What can data say us on bees ?</h1>
+                    <div class="col-xl-12 col-lg-4 col-md-6 col-sm-12">
+                            <div class="our-services-wrapper mb-60">
+                                    <div class="services-inner">
+                                            <div class="our-services-img">
+                                            <i class="fa fa-shower fa-4x" id="iconOne" ></i>
+                                            </div>
+                                            <div class="our-services-text">
+                                                    <h4>Humidity</h4>
+                                                     <p>
+                                                        <img src="Beehumidity.png" alt="humidity datas"  style="display:block; margin:auto;"/>
+                                                    </p>
+                                                     <p>
+                                                        This diagram shows a steady decline in the internal moisture content, almost regardless
+                                                        of the external humidity. Another coded message which means that the bees begin to close 
+                                                        (seal) the honey cells with a wax plug. The nectar is indeed transformed into honey only 
+                                                        when its internal moisture content is lowered to 14%. Once the operation is complete, the 
+                                                        ambient humidity declines. Knowing the hygrometry in a hive is especially important in 
+                                                        winter. This is a measure of the risk of bees - which manage cold rather than excess 
+                                                        water - exposed to the many diseases caused by humidity. In May, the humidity is the signal 
+                                                        of a strong activity and its slow decline confirms that one can envisage a harvest ... 
+                                                        as we could verify it in the video below.  
+                                                    </p>
+                                            </div>
+                                    </div>
+                            </div>
+                    </div>
+                    <div class="col-xl-12 col-lg-4 col-md-6 col-sm-12">
+                            <div class="our-services-wrapper mb-60">
+                                    <div class="services-inner">
+                                            <div class="our-services-img">
+                                            <i class="fa fa-weight fa-4x" id="iconOne" ></i>
+                                            </div>
+                                            <div class="our-services-text">
+                                                    <h4>Weight</h4>
+                                                    <p>
+                                                        <img src="Beeweight.png" alt="humidity datas" style="display:block; margin:auto;"/>
+                                                    </p>
+                                                    <p>
+                                                            To be able to spend the winter in good conditions a colony must have about 12 kilos of food.
+                                                            Which corresponds to a hive Dadant 10 frames to a weight of 32 to 34 kilos (with the roof and without feeder).
+                                                            Example of weighing by two people with a load cell.
+                                                            Another method with a scale:
+                                                            We go up on the scale while holding the hive and deduce its own weight.
+                                                            <br>
+                                                            Note :
+                                                            <br>
+                                                            It is early October that the hive must weigh 32 kg.
+                                                            In September the consumption can reach 4 Kg if the weather conditions are bad.
+                                                    </p>
+                                            </div>
+                                    </div>
+                            </div>
+                    </div>
+                    <div class="col-xl-12 col-lg-4 col-md-6 col-sm-12">
+                            <div class="our-services-wrapper mb-60">
+                                    <div class="services-inner">
+                                            <div class="our-services-img">
+                                            <i class="fa fa-thermometer fa-4x" id="iconOne" ></i>
+                                            </div>
+                                            <div class="our-services-text">
+                                                    <h4>Temperature</h4>
+                                                    <p>
+                                                        <img src="Beetemp.png" alt="humidity datas" style="display:block; margin:auto;"/>
+                                                    </p>
+                                                    <p>
+                                                            The diagram above shows a progression of the temperature and its maintenance 
+                                                            to a level comparable to that of a hive body. This is the sign that a lot of
+                                                             bees are in the hive, where the module has been placed, busy producing honey
+                                                            (outside, the acacia trees are in bloom). Outside the harvest period 
+                                                            (roughly between May and July), variations in temperature provide indications
+                                                            of the queen's egg-laying rate. Especially in cold weather, they give valuable
+                                                            information on the ability of the swarm, then gathered in a cluster, to
+                                                            face the frost. In the event of a lasting decrease of the internal temperature
+                                                            below 30 degrees, it will be necessary to bring reserves of food 
+                                                            (candied bread, sugared water).
+                                                    </p>
+                                            </div>
+                                    </div>
+                            </div>
+                    </div>
+                   
+                </div>
+                <script type="text/javascript">
+                    window.onload = function() {
+                      try {
+                        TagCanvas.Start('myCanvas');
+                      } catch(e) {
+                        // something went wrong, hide the canvas container
+                        document.getElementById('myCanvasContainer').style.display = 'none';
+                      }
+                    };
+                </script>
+
+                <div class="py-2"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="popper.min.js"></script>
+<script src="https://mdbootstrap.com/previews/docs/latest/js/bootstrap.min.js"></script>
+<script src="https://mdbootstrap.com/previews/docs/latest/js/mdb.min.js"></script>
+<script src="https://mdbootstrap.com/previews/docs/latest/js/jarallax.js"></script>
+<script src="https://mdbootstrap.com/previews/docs/latest/js/jarallax-video.js"></script>
+
+</html>

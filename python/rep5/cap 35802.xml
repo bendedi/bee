@@ -1,0 +1,38 @@
+<annotation>
+	<folder>rep5</folder>
+	<filename>cap 35802.jpg</filename>
+	<path>C:\Users\bdupontd\Desktop\python\rep3\cap 35802.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>228</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bee</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>360</xmin>
+			<ymin>16</ymin>
+			<xmax>375</xmax>
+			<ymax>25</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bee</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>188</xmin>
+			<ymin>130</ymin>
+			<xmax>206</xmax>
+			<ymax>148</ymax>
+		</bndbox>
+	</object>
+</annotation>
